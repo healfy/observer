@@ -9,6 +9,7 @@ __all__ = [
     'WALLETS_HOST',
     'TRANSACTIONS_HOST',
     'GAS_STATION_HOST',
+    'log',
 ]
 
 log = logging.getLogger('app')
