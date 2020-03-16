@@ -1,4 +1,3 @@
-from os.path import isfile
 import logging
 
 
@@ -10,6 +9,9 @@ __all__ = [
     'TRANSACTIONS_HOST',
     'GAS_STATION_HOST',
     'log',
+    'SITE_HOST',
+    'SITE_PORT',
+    'REDIS_HOST',
 ]
 
 log = logging.getLogger('app')
@@ -27,13 +29,14 @@ SITE_HOST = "0.0.0.0"
 SITE_PORT = "8000"
 SECRET_KEY = 'SECRET_KEY'
 
-CURRENCIES_HOST = ''
+CURRENCIES_HOST = '0.0.0.0'
 BGW_HOST = ''
 EXCHANGER_GRPC_HOST = ''
 LOANS_HOST = ''
 WALLETS_HOST = ''
 TRANSACTIONS_HOST = ''
 GAS_STATION_HOST = ''
+REDIS_HOST = 'localhost'
 
 # MONGO_HOST = env.str('MONGO_HOST')
 # MONGO_DB_NAME = env.str('MONGO_DB_NAME')
