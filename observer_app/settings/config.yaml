@@ -1,0 +1,12 @@
+SITE_HOST: "0.0.0.0"
+SITE_PORT: "8000"
+
+CURRENCIES_HOST: '0.0.0.0'
+BGW_HOST: '0.0.0.0'
+LOANS_HOST: '0.0.0.0'
+WALLETS_HOST: '0.0.0.0'
+TRANSACTIONS_HOST: '0.0.0.0'
+GASSTATION_HOST: '0.0.0.0'
+REDIS_HOST: 'localhost'
+DEBUG: True # set True if u want to see data from redis
+DELAY_FOR_RUNNER: 5 # delay to release tasks
